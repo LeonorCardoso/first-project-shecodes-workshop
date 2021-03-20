@@ -1,0 +1,139 @@
+body {
+  background-image: linear-gradient(to top, #ffd5ab 0%, #fff2e5 100%);
+  display: block;
+  margin: 30px 0px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+
+h1 {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0px;
+  text-align: center;
+  color: #b7472a;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 2px 0px rgba(235, 151, 136, 0.5);
+}
+
+hr {
+  border-top: 10px double #ea9788;
+}
+
+h2 {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0px;
+  text-align: center;
+  color: #b7472a;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 1px 0px rgba(235, 151, 136, 0.5);
+}
+
+.container {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 860px;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.slices {
+  display: block;
+  padding: 10px 0px;
+}
+
+p {
+  display: inline;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: bold;
+  color: #ea9788;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255, 0.5);
+  font-size: 22px;
+}
+
+.textleft {
+  float: left;
+  width: 530px;
+  padding: 10px 15px;
+}
+
+.imgright {
+  float: right;
+  border-radius: 4px;
+}
+
+.textright {
+  float: right;
+  width: 530px;
+  padding: 10px 15px;
+}
+
+.imgleft {
+  float: left;
+  border-radius: 4px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+a {
+  display: block;
+  color: #ea9788;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+button {
+  display: block;
+  padding: 15px 20px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff2e5;
+  background: #ea9788;
+  border: 1px solid #ea9788;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px #ffd5ab;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #ea9788;
+  background: #fff2e5;
+  transition: 200ms ease-in-out;
+}
+
+.makehappy {
+  width: 450px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+.coder {
+  font-family: monospace;
+  color: #ea9788;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255, 0.5);
+}
