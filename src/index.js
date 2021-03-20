@@ -1,7 +1,7 @@
 function makeHappy() {
             alert("Hello! 😺")
             let name = prompt("What's your name?");
-            let happiness = prompt("Hi " + name + " do you like cats?");
+            let happiness = prompt("Hi" + name + " do you like cats?");
 
             happiness = happiness.toLowerCase();
             happiness = happiness.trim();
